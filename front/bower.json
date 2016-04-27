@@ -1,0 +1,21 @@
+{
+  "name": "front",
+  "main": "index.js",
+  "homepage": "https://github.com/CodingDojoPolytech/RandoriChatJS",
+  "authors": [
+    "Fabien Pinel <pinel.fabien@gmail.com>"
+  ],
+  "description": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.3"
+  }
+}

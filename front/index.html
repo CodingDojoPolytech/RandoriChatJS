@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class = "roomlist">
+    <p id="joinRoom">nom de la room</p>
+</div>
+<form id="room_form">
+    <p>Nom de la</p>
+    Nom de la room<input id="room_name" type="text"/>
+    <input id="create_room" type = "submit" />
+</form>
+<div class="room">
+    <h3>title</h3>
+
+    <div class="messages" id="messages">
+        <p class="message">[15:39] ceci est un message</p>
+        <p class="message">un autre</p>
+        <p class="message">etc</p>
+    </div>
+    <form id="form-msg">
+        <input id="user" type="text"/>
+        <input id="msg" type="text" placeholder="message"/>
+        <input type="submit"/>
+    </form>
+
+    <div class="btn btn-primary" id="wizzBtn">Envoyer un wizz</div>
+</div>
+</body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="http://localhost:1337/socket.io/socket.io.js"></script>
+<script src="index.js"></script>
+</html>

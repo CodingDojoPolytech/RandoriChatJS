@@ -1,0 +1,11 @@
+.room{
+    border: solid black 1px;
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+}
